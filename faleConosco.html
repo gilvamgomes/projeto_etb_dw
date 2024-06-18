@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Gilvam Gomes">
+    <meta name="Astronomia" content="Astronomia e afins.">
+    <title>Astronomia</title>
+    <link rel="icon" href="/img/icons8-cometa-50.png">
+    <link rel="stylesheet" href="/estilos.css" type="text/css">
+</head>
+
+<body>
+    <div id="menu"> <!--id APP-->
+        <header>
+            <h1>Astronomia</h1> <!--header img-->
+            <ul class="listaSup"> <!--navegation-->
+                <li>
+                    <a href="/index.html" class="linkListaSup">Home</a>
+                </li>
+                <nav>
+                    <a href="#" class="linkListaSup">Conteúdo</a>
+                    <ul class="submenu">
+                        <li><a href="/conteudos/estrela.html">Estrela</a></li>
+                        <li><a href="/conteudos/lua.html">Lua</a></li>
+                        <li><a href="/conteudos/planeta.html">Planeta</a></li>
+                        <li><a href="/conteudos/meteorito.html">Meteorito</a></li>
+                        <li><a href="/conteudos/asteroide.html">Asteróide</a></li>
+                        <li><a href="/conteudos/galaxia.html">Galáxia</a></li>
+                    </ul>
+                </nav>
+                <li>
+                    <a href="/faleConosco.html" class="linkListaSup">Fale Conosco</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <main>
+        <div id="background">
+        </div>
+
+        <div class="formulario">
+            <div class="form1">
+                <form action="">
+                    <fieldset>
+                        <legend class="titulo1">
+                            Formulário
+                        </legend>
+                        <p>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="telefone">
+                                Telefone
+                            </label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="61 9999-99999" required>
+                        </p>
+                        <p>
+                            <label for="email">
+                                E-mail
+                            </label>
+                            <input type="email" name="email" id="email" placeholder="seuEmail@exemplo.com" required>
+                        </p>
+                        <p class="tituolo3">
+                            Qual sua dúvida?
+                        </p>
+                        <p>
+                            <input type="radio" name="tipoAjuda" id="tipoAjuda" value="tipoAjuda">
+                            <label for="tipoAjuda">Conteúdo</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="tipoAjuda" id="tipoAjuda" value="tipoAjuda">
+                            <label for="tipoAjuda">Outro</label>
+                        </p>
+                        <p class="tituolo3">
+                            Do que mais gostou no site:
+                        </p>
+                        <p>
+                            <input type="checkbox" name="nota" id="ruim">
+                            <label for="ruim">Design</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="nota" id="regular">
+                            <label for="regular">Vídeos</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="nota" id="bom">
+                            <label for="bom">Conteúdo</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="nota" id="otimo">
+                            <label for="otimo">Outro</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <div class="ajusteGiff">
+                        <fieldset>
+                            <legend class="titulo1">Envio astronômico</legend>
+                            <p>Nos envie seu registro astronômico para projetos futuos no site</p>
+                            <input type="file" name="anexoFoto" id="anexoFoto">
+                            <div class="caixaTexto">
+                                <p>
+                                    <label for="mensagem">Legenda da foto</label>
+                                </p>
+                                <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                                    placeholder="Insira a legenda da sua foto aqui"></textarea>
+                                        <img src="/img/space-astronaut.gif" width="160" height="auto" alt="astronauta girando">
+                                    
+                            </div>    
+                        </fieldset>
+                    </div>
+                    <br>
+                    <div class="faleBotao">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Redefinir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<footer class="rodape">
+    <p>
+        &lt; &copy; Copyright Gilvam Gomes &gt;
+    </p>
+</footer>
+
+</html>
